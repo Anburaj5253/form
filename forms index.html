@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+   <title>form</title>
+</title>
+<body style=background-color:green;>
+<center><h1>my application </h1>
+<form action="/action_page.php" method="get" >
+<fieldset>
+<legend>application data</legend>
+<label>NAME:</label>
+<input type="text" placeholder="enter yur name" ><br><br>
+<label>AGE:</label>
+<input type="text" placeholder="enter your age"><br><br>
+<label>GMAIL ID:</label>
+<input type="text" placeholder="enter your gmail"><br><br>
+<label>PH NO:</label>
+<input type="text" placeholder="enter your ph no:"><br><br>
+<label>PASSWORD:</label>
+<input type="password" placeholder="enter your password:"><br><br>
+<!-----checkbox&radio--->
+<label>1 year</label>
+<input type="checkbox"><br><br>
+<label>4 year</label>
+<input type="checkbox"><br><br>
+<label>male</label>
+<input type="radio">
+<label>female</label>
+<input type="radio"><br><br>
+
+<!-- select -->
+<label for="departement">choose the departement:</label> 
+<select name="departement" id="departement">
+<option value="b.tech">b.tech</option>
+<option value="cse">cse</option>
+<option value="eee">eee</option>
+<option value="mech">mech</option><br><br>
+</select>
+<!-- datalist -->
+<form action="/action_page.php" method="get" >
+<label for="departement">choose your departement from the:</label>
+<input list="departement" name="departement">
+<datalist id="departement">
+<option value="b.tech">
+<option value="cse">
+<option value="eee">
+<option value="mech">
+<option value="civil">
+<option value="ece">
+</datalist>
+<input type="sumbit">
+</form>
+<!-- button -->
+<button>
+<input type="button" value=sumbit><br>
+<input type="button" value=reset><br>
+</button>
+</body>
+</html>
